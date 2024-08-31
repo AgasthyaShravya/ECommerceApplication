@@ -1,5 +1,5 @@
 .hero{
-    height: 105vh;
+    height: 110vh;
     background: linear-gradient(180deg,#FABC3F 0% ,#EE4E4E,60%);
     display: flex;
 }
@@ -19,6 +19,11 @@
 }
 .hero-left p{
     color: #EE4E4E;
+    font-size: 90px;
+    font-weight: 200;
+}
+.hero-left span{
+    color: #FABC3F;
     font-size: 90px;
     font-weight: 200;
 }
