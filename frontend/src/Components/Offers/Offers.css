@@ -1,0 +1,54 @@
+.offers {
+    width: 80%; /* Increase the width to fill the container */
+    display: flex;
+    height: 70vh;
+    margin: auto;
+    margin-bottom: 150px;
+    padding: 20px 140px; /* Add padding to give some space inside the offers */
+    background: linear-gradient(180deg, #FABC3F 0%, #EE4E4E 60%);
+}
+
+/* No changes needed */
+.offers-left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Adjusted font size for better view on narrow widths */
+.offers-left h1 {
+    color: #FABC3F;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+/* No changes needed */
+.offers-left p {
+    color: #FABC3F;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+/* Adjusted button size */
+.offers-left button {
+    width: 252px;
+    height: 50px;
+    outline: none;
+    border-radius: 35px;
+    border: none;
+    color: #EE4E4E;
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+/* No changes needed */
+.offers-right {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: -20px;
+}

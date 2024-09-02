@@ -1,20 +1,21 @@
-.popular {
+.new-collections {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 10px;
+    nav-down: 100px;
     margin-bottom: 50px; /* Add margin-bottom to create space between Popular and Offers */
 }
 
 /* No changes needed */
-.popular h1 {
+.new-collections  h1 {
     color: #FABC3F;
     font-size: 50px;
     font-weight: 400;
 }
 
 /* No changes needed */
-.popular hr {
+.new-collections hr {
     width: 200px;
     height: 6px;
     border-radius: 10px;
@@ -22,15 +23,15 @@
 }
 
 /* Adjusted spacing */
-.popular-item {
+.collections  {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     margin-top: 50px;
-    display: flex;
     gap: 30px;
-    flex-wrap: wrap; /* Added flex-wrap to allow items to wrap if there's not enough space */
 }
 
 /* No changes needed */
-.popular span {
+.new-collections  span {
     color: #EE4E4E;
     font-size: 50px;
     font-weight: 600;
